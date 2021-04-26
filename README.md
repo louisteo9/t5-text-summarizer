@@ -1,11 +1,11 @@
 # T5 Text Summarizer
 ## Table of Contents
-1. [Introduction]()
-2. [File Descriptions]()
-3. [Installation]()
-4. [Instructions]()
-5. [Acknowledgements]()
-6. [Screenshots]()
+1. [Introduction](https://github.com/louisteo9/t5-text-summarizer#introduction)
+2. [File Descriptions](https://github.com/louisteo9/t5-text-summarizer#file-descriptions)
+3. [Installation](https://github.com/louisteo9/t5-text-summarizer#installation)
+4. [Instructions](https://github.com/louisteo9/t5-text-summarizer#instructions)
+5. [Acknowledgements](https://github.com/louisteo9/t5-text-summarizer#acknowledgements)
+6. [Screenshots](https://github.com/louisteo9/t5-text-summarizer#screenshots)
 
 ## Introduction
 In this project, we will use Google's state-of-the-art T5 model to create a human-like text summarizer.
@@ -50,12 +50,12 @@ Run the following commands in the project's root directory to extract text data 
 
 ## Screenshots
 1. Run data pipeline (extract_data.py) to extract text from pdf files and save to a SQLite database.<br/>
-![image]()
+![image](https://github.com/louisteo9/t5-text-summarizer/blob/master/screenshots/extract_data.png)
 
 2. Run summarization pipeline (summarization.py) [only T5] to summarize text data, save the summary to text file and store the summary to database.<br/>
-![image]()
+![image](https://github.com/louisteo9/t5-text-summarizer/blob/master/screenshots/summarization%20ratio%201.0.png)
 
 3. Run summarization pipeline (summarization.py) [BERT & T5] to summarize text data, save the summary to text file and store the summary to database.<br/>
-![image]()
+![image](https://github.com/louisteo9/t5-text-summarizer/blob/master/screenshots/summarization%20ratio%200.5.png)
 
     _**Note:** Key in a ratio below 1.0 (e.g 0.5) if you wish to shorten the text with BERT extractive summarization before running it through T5 summarization. It takes longer to generate a summary this way because each text is run through two different summarizers._
