@@ -12,7 +12,7 @@ In this project, we will use Google's state-of-the-art T5 model to create a huma
 
 I will also share my text summarizer pipelines where I combine both extractive and abstractive methods to generate meaningful summaries for PDF documents of any length.
 
-The medium blog post that accompanying this project can be found [here]().
+The medium blog post that accompanying this project can be found [here](https://towardsdatascience.com/the-secret-guide-to-human-like-text-summarization-fcea0bfbe801).
 
 ## File Descriptions
 ### Folder: data
@@ -28,6 +28,8 @@ The medium blog post that accompanying this project can be found [here]().
 
 ### Folder: screenshots
 Screenshots of the text summarizer pipelines run on Terminal.
+
+**T5 Text Summarizer.ipynb** Jupyter Notebook for T5 Text Summarizer.
 
 ## Installation
 Four major libraries that you will need to install beyond the Anaconda distribution of Python are: **torch**, **transformers**, **bert-extractive-summarizer** and **pdfminer.six**
